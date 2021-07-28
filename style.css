@@ -1,0 +1,84 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+ */
+body {
+  margin: 0;
+  background: rgb(4,111,143);
+  
+  
+}
+
+.center {
+  
+  width: 100%;
+  background: rgb(4,111,143);
+  background: radial-gradient(circle, rgba(4,111,143,0.837979094076655) 32%, rgba(14,170,84,0.6341463414634146) 62%, rgba(7,163,1,1) 100%);
+  /* border: 3px solid green; */
+  padding: 10px;
+  text-align: center;
+  margin: auto, auto;
+
+}
+ h1 {
+   padding: 5px;
+   border-radius: 0 15 15 0 ;
+   font-size: 48px;
+   font-family: 'Josefin Sans', sans-serif;
+ }
+
+ #profile_pic {
+  size: 200px; 
+  border-radius: 70% 31% 70% 31% / 31% 70% 31% 70% ;
+ }
+
+ h2 {
+  font-family: 'Montserrat', sans-serif;
+ }
+
+ p {
+   font-size: 24px;
+ }
+
+  .button_contact > a {
+  margin: 0 auto;
+  block-size: 100px;
+  align-content: center;
+  text-align: center;
+  width: 100px;
+  height: 65px;
+  border-radius: 15px,center;
+  background-color: blue;
+  text-align: justify;
+  color: chartreuse;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px;
+   
+ }
+
+ #social {
+  list-style-type: none;
+  font-size: 26px;
+  letter-spacing: 3px;
+  display: inline-flex;
+  padding: 0px 20px;
+ }
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .center {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .center {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .center {
+    width: 300px;
+  }
+}
